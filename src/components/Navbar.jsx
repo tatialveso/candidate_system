@@ -21,7 +21,7 @@ function Navbar({ search, setSearch }) {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />
-                <img className="rounded-full w-10 h-10" src={profileImg} alt="" />
+                <img className="rounded-full w-10 h-10 mr-5" src={profileImg} alt="" />
             </div>
         </div>
     )
