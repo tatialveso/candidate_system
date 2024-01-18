@@ -1,12 +1,10 @@
 /* eslint-disable react/prop-types */
 import { Link } from 'react-router-dom'
 import profileImg from '../assets/profile.png'
-import Sidebar from './Sidebar'
 
 function Navbar({ search, setSearch }) {
     return (
         <div>
-            <Sidebar />
             <div className="fixed bg-gray-800 w-screen flex justify-between items-center p-5 shadow-xl">
                 <Link to="/">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="text-white w-10 h-10">
